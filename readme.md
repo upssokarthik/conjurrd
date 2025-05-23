@@ -21,3 +21,14 @@ curl --header "Accept-Encoding: base64" --data 3h06wmq2ga2vfa3xypbcjnfsg911mpdz7
 curl -H 'Authorization: Token token="<Token>"' \https://india.secretsmgr.cyberark.cloud/api/secrets/conjur/variable/data/dev-upt/password
 ```
 
+# Conjur load policy reference
+
+## conjur load policy
+```
+conjur policy load -b data -f 3-permit-group.yml   
+```
+## Conjur update policy. Mostly for updating and deleting the existing configuration
+```
+conjur policy update -b data -f 5-host-delete.yml
+```
+
