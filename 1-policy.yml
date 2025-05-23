@@ -1,0 +1,7 @@
+- !policy
+  id: dev-upt
+  body:
+    - !variable
+      id: username
+    - !variable
+      id: password

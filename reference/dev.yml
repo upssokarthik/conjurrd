@@ -1,0 +1,13 @@
+- !group developers-upt
+- !host myapp-upt
+- !policy
+  id: dev-upt
+  owner: !group developers-upt
+  body:
+    - !variable
+      id: cert
+    - !variable
+      id: key
+- !grant
+  role: !group developers-upt
+  members: !user /mani@india

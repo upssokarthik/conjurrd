@@ -1,0 +1,4 @@
+- !grant
+    role: !group upt-tutorial-group
+    members: 
+      - !host upt-tutorial-host

@@ -1,0 +1,4 @@
+- !group
+  id: upt-tutorial-group
+  annotations:
+    description: "This is a group used to create a tutorial for training purposes"

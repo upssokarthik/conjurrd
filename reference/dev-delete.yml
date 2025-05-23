@@ -1,0 +1,6 @@
+- !delete
+  record: !policy dev-upt
+- !delete
+  record: !group developers-upt
+- !delete
+  record: !host myapp-upt

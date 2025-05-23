@@ -1,0 +1,14 @@
+- !policy
+  id: upt-policy
+  body:
+    - !layer
+    - !host
+      owner: !layer
+      id: upt-host-1
+      annotations:
+        authn/api-key: true
+    - !host
+      owner: !layer
+      id: upt-host-2
+      annotations:
+        authn/api-key: true

@@ -1,0 +1,9 @@
+- !permit
+  role: !user /karthik@india
+  privileges: [ read, execute, update ]
+  resource: !variable dev-upt/username
+
+- !permit
+  role: !user /karthik@india
+  privileges: [ read, execute, update ]
+  resource: !variable dev-upt/password

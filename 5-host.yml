@@ -1,0 +1,8 @@
+- !host
+  id: upt-tutorial-host
+  owner: !user /mani@india
+  annotations:
+    authn/api-key: true # only with this annotation, the api key will be generated
+    key1: value1
+    key2: value2
+    labels: testlabel

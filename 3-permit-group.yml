@@ -1,0 +1,10 @@
+- !permit
+  role: !group upt-tutorial-group
+  privileges: [ read, execute ]
+  resource: !variable dev-upt/password
+
+- !permit
+  role: !group upt-tutorial-group
+  privileges: [ read, execute ]
+  resource: !variable dev-upt/username
+
