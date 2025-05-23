@@ -1,0 +1,13 @@
+- !policy   # Conjur cloud user creation is not supported using yaml files. It need to be created using identity portal
+  id: upt-policy-1
+  body:
+    - !host
+      id: upt-web-app
+      annotations:
+        authn/api-key: true
+    - !variable
+      id: username
+    - !variable
+      id: password
+    - !group
+      id: upt-policy1-group

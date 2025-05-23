@@ -1,4 +1,4 @@
-# Command References
+# Conjur Command References
 
 ## Conjur Variable set command
 ```
@@ -7,6 +7,14 @@ conjur variable set -i data/dev-upt/username -v uptadmin
 ## Conjur variable get command
 ```
 conjur variable get -i data/dev-upt/username
+```
+## Conjur list all resources
+```
+conjur list
+```
+## Conjur free text search
+```
+conjur list --search upt-policy-1
 ```
 
 # Conjur fetch secrets
