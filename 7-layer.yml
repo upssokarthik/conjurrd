@@ -1,0 +1,20 @@
+- !policy
+  id: layer-test
+  body:
+    - &upt-layer-variables
+      - !variable username
+      - !variable password
+    - !layer upt-layer
+    - !host 
+      id: upt-layer-host
+      annotations:
+        authn/api-key: true
+    - !grant
+      role: !layer upt-layer
+      member: !host upt-layer-host
+    - !group
+      id: upt-layer-group
+    - !permit
+      role: !layer upt-layer
+      privileges: [ read, execute ]
+      resource: *upt-layer-variables
