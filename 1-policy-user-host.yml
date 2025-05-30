@@ -9,5 +9,7 @@
       id: username
     - !variable
       id: password
+    - !variable
+      id: secret1
     - !group
       id: upt-policy1-group

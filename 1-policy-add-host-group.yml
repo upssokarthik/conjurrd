@@ -1,0 +1,4 @@
+- !grant
+    role: !group upt-policy-1/upt-policy1-group
+    members: 
+      - !host upt-policy-1/upt-web-app

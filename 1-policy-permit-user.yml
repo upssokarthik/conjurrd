@@ -1,0 +1,4 @@
+- !permit
+  role: !user /karthik@india
+  privileges: [ read, update, create, use ]
+  resource: !policy upt-policy-1

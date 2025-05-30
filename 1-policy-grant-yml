@@ -1,0 +1,9 @@
+- !permit
+  role: !group upt-policy-1/upt-policy1-group
+  privileges: [ read, execute ]
+  resource: !variable upt-policy-1/username
+
+- !permit
+  role: !group upt-policy-1/upt-policy1-group
+  privileges: [ read, execute ]
+  resource: !variable upt-policy-1/password
